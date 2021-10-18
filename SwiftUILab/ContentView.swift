@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUILab
-//
-//  Created by devhaute on 2021/10/18.
-//
-
 import SwiftUI
 
 struct ContentView: View {
