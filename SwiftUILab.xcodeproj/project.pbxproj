@@ -18,7 +18,6 @@
 /* Begin PBXFileReference section */
 		B417A34B272958EF005085A9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B417A34E272962CF005085A9 /* MyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapView.swift; sourceTree = "<group>"; };
-		B417A35027296963005085A9 /* DummyLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DummyLocation.gpx; sourceTree = "<group>"; };
 		B41D6C6F271D84300027E8C7 /* SwiftUILab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41D6C72271D84300027E8C7 /* SwiftUILabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabApp.swift; sourceTree = "<group>"; };
 		B41D6C74271D84300027E8C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +41,6 @@
 			children = (
 				B417A34B272958EF005085A9 /* MapView.swift */,
 				B417A34E272962CF005085A9 /* MyMapView.swift */,
-				B417A35027296963005085A9 /* DummyLocation.gpx */,
 			);
 			path = MapView;
 			sourceTree = "<group>";
