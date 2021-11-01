@@ -8,7 +8,7 @@
   - `#scrollview` `#scrollviewReader` `#namespace` `#scrollviewProxy`
   - [Commit](https://github.com/devhaute/SwiftUILab/commit/4bdf23a9854448c0e3923d78ffddabbe638a73ef)
 ####
-- [ ] **드래그 앤 드랍 구현** *(2021.10.29)*
-  - `#drag` `#DropDelegate`
-  - Commit
+- [X] **리덕스를 활용한 랜덤 주사위** *(2021.11.1)*
+  - `#스위프트UI` `#Redux` `#Flux` `#Animation` `#EnvironmentObject` `#Combine` `#Published`
+  - [Commit](https://github.com/devhaute/SwiftUILab/commit/f96bc7f3db33bf37eafbb4603d6cd1044c72ff7a)
 ####
