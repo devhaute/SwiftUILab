@@ -14,6 +14,13 @@
 		B41D6C75271D84300027E8C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D6C74271D84300027E8C7 /* ContentView.swift */; };
 		B41D6C77271D84310027E8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41D6C76271D84310027E8C7 /* Assets.xcassets */; };
 		B41D6C7A271D84310027E8C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41D6C79271D84310027E8C7 /* Preview Assets.xcassets */; };
+		B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C602F273010BB00423C09 /* MyButtonStyle.swift */; };
+		B46C60322730127500423C09 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C60312730127500423C09 /* AppState.swift */; };
+		B4FCA94A272FF06200E83D14 /* ReduxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA949272FF06200E83D14 /* ReduxView.swift */; };
+		B4FCA94C272FFD2300E83D14 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA94B272FFD2300E83D14 /* DiceView.swift */; };
+		B4FCA94E2730044F00E83D14 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA94D2730044F00E83D14 /* AppStore.swift */; };
+		B4FCA9502730077100E83D14 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA94F2730077100E83D14 /* AppAction.swift */; };
+		B4FCA952273007A700E83D14 /* Reducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA951273007A700E83D14 /* Reducers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		B41D6C74271D84300027E8C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B41D6C76271D84310027E8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41D6C79271D84310027E8C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B46C602F273010BB00423C09 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		B46C60312730127500423C09 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B4FCA949272FF06200E83D14 /* ReduxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxView.swift; sourceTree = "<group>"; };
+		B4FCA94B272FFD2300E83D14 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		B4FCA94D2730044F00E83D14 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		B4FCA94F2730077100E83D14 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		B4FCA951273007A700E83D14 /* Reducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,7 @@
 				B41D6C74271D84300027E8C7 /* ContentView.swift */,
 				B417A34D272958F6005085A9 /* MapView */,
 				B408B34B272BCC2600A43F7E /* ScrollReader */,
+				B4FCA948272FF05200E83D14 /* Redux */,
 			);
 			path = SwiftUILab;
 			sourceTree = "<group>";
@@ -90,6 +105,20 @@
 				B41D6C79271D84310027E8C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4FCA948272FF05200E83D14 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				B46C60312730127500423C09 /* AppState.swift */,
+				B4FCA94F2730077100E83D14 /* AppAction.swift */,
+				B4FCA951273007A700E83D14 /* Reducers.swift */,
+				B4FCA94D2730044F00E83D14 /* AppStore.swift */,
+				B4FCA949272FF06200E83D14 /* ReduxView.swift */,
+				B4FCA94B272FFD2300E83D14 /* DiceView.swift */,
+				B46C602F273010BB00423C09 /* MyButtonStyle.swift */,
+			);
+			path = Redux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +201,15 @@
 				B41D6C75271D84300027E8C7 /* ContentView.swift in Sources */,
 				B417A34F272962CF005085A9 /* MyMapView.swift in Sources */,
 				B417A34C272958EF005085A9 /* MapView.swift in Sources */,
+				B46C60322730127500423C09 /* AppState.swift in Sources */,
 				B41D6C73271D84300027E8C7 /* SwiftUILabApp.swift in Sources */,
+				B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */,
+				B4FCA9502730077100E83D14 /* AppAction.swift in Sources */,
 				B408B34D272BCC4F00A43F7E /* ScrollReader.swift in Sources */,
+				B4FCA952273007A700E83D14 /* Reducers.swift in Sources */,
+				B4FCA94C272FFD2300E83D14 /* DiceView.swift in Sources */,
+				B4FCA94A272FF06200E83D14 /* ReduxView.swift in Sources */,
+				B4FCA94E2730044F00E83D14 /* AppStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
