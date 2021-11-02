@@ -14,6 +14,8 @@
 		B41D6C75271D84300027E8C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D6C74271D84300027E8C7 /* ContentView.swift */; };
 		B41D6C77271D84310027E8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41D6C76271D84310027E8C7 /* Assets.xcassets */; };
 		B41D6C7A271D84310027E8C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41D6C79271D84310027E8C7 /* Preview Assets.xcassets */; };
+		B42CB95727311FBA00074A9A /* OAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB95627311FBA00074A9A /* OAuthView.swift */; };
+		B42CB95A27314E4D00074A9A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB95927314E4D00074A9A /* LoginView.swift */; };
 		B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C602F273010BB00423C09 /* MyButtonStyle.swift */; };
 		B46C60322730127500423C09 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C60312730127500423C09 /* AppState.swift */; };
 		B4FCA94A272FF06200E83D14 /* ReduxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA949272FF06200E83D14 /* ReduxView.swift */; };
@@ -32,6 +34,8 @@
 		B41D6C74271D84300027E8C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B41D6C76271D84310027E8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41D6C79271D84310027E8C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B42CB95627311FBA00074A9A /* OAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthView.swift; sourceTree = "<group>"; };
+		B42CB95927314E4D00074A9A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B46C602F273010BB00423C09 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 		B46C60312730127500423C09 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		B4FCA949272FF06200E83D14 /* ReduxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				B417A34D272958F6005085A9 /* MapView */,
 				B408B34B272BCC2600A43F7E /* ScrollReader */,
 				B4FCA948272FF05200E83D14 /* Redux */,
+				B42CB95527311F9C00074A9A /* OAuth */,
 			);
 			path = SwiftUILab;
 			sourceTree = "<group>";
@@ -105,6 +110,23 @@
 				B41D6C79271D84310027E8C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B42CB95527311F9C00074A9A /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B42CB95827314E2100074A9A /* View */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		B42CB95827314E2100074A9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B42CB95627311FBA00074A9A /* OAuthView.swift */,
+				B42CB95927314E4D00074A9A /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B4FCA948272FF05200E83D14 /* Redux */ = {
@@ -201,10 +223,12 @@
 				B41D6C75271D84300027E8C7 /* ContentView.swift in Sources */,
 				B417A34F272962CF005085A9 /* MyMapView.swift in Sources */,
 				B417A34C272958EF005085A9 /* MapView.swift in Sources */,
+				B42CB95727311FBA00074A9A /* OAuthView.swift in Sources */,
 				B46C60322730127500423C09 /* AppState.swift in Sources */,
 				B41D6C73271D84300027E8C7 /* SwiftUILabApp.swift in Sources */,
 				B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */,
 				B4FCA9502730077100E83D14 /* AppAction.swift in Sources */,
+				B42CB95A27314E4D00074A9A /* LoginView.swift in Sources */,
 				B408B34D272BCC4F00A43F7E /* ScrollReader.swift in Sources */,
 				B4FCA952273007A700E83D14 /* Reducers.swift in Sources */,
 				B4FCA94C272FFD2300E83D14 /* DiceView.swift in Sources */,
