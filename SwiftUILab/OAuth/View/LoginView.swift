@@ -31,7 +31,7 @@ struct LoginView: View {
                 }
             }
         }
-        .navigationTitle("로그인 페이지")
+        .navigationTitle("로그인")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

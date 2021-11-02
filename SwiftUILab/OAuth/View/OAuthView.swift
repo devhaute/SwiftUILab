@@ -22,7 +22,7 @@ struct OAuthView: View {
                 }
                 
                 NavigationLink {
-                    Text("회원가입")
+                    RegisterView()
                 } label: {
                     HStack {
                         Spacer()
