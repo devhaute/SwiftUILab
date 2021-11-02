@@ -52,7 +52,7 @@ struct OAuthView: View {
                 }
                 
                 NavigationLink {
-                    Text("사용자 목록화면")
+                    UserListView()
                 } label: {
                     HStack {
                         Spacer()
