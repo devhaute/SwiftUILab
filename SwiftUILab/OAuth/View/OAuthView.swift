@@ -38,7 +38,7 @@ struct OAuthView: View {
                 Spacer().frame(height: 40)
                 
                 NavigationLink {
-                    Text("내 프로필")
+                    ProfileView()
                 } label: {
                     HStack {
                         Spacer()

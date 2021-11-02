@@ -17,6 +17,8 @@
 		B42CB95727311FBA00074A9A /* OAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB95627311FBA00074A9A /* OAuthView.swift */; };
 		B42CB95A27314E4D00074A9A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB95927314E4D00074A9A /* LoginView.swift */; };
 		B42CB95C2731527C00074A9A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB95B2731527C00074A9A /* RegisterView.swift */; };
+		B42CB960273158F900074A9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB95F273158F900074A9A /* ProfileView.swift */; };
+		B42CB963273159B400074A9A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB962273159B400074A9A /* UserData.swift */; };
 		B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C602F273010BB00423C09 /* MyButtonStyle.swift */; };
 		B46C60322730127500423C09 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C60312730127500423C09 /* AppState.swift */; };
 		B4FCA94A272FF06200E83D14 /* ReduxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA949272FF06200E83D14 /* ReduxView.swift */; };
@@ -38,6 +40,9 @@
 		B42CB95627311FBA00074A9A /* OAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthView.swift; sourceTree = "<group>"; };
 		B42CB95927314E4D00074A9A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B42CB95B2731527C00074A9A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		B42CB95F273158F900074A9A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B42CB962273159B400074A9A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		B42CB964273170B200074A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B46C602F273010BB00423C09 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 		B46C60312730127500423C09 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		B4FCA949272FF06200E83D14 /* ReduxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxView.swift; sourceTree = "<group>"; };
@@ -94,6 +99,7 @@
 		B41D6C71271D84300027E8C7 /* SwiftUILab */ = {
 			isa = PBXGroup;
 			children = (
+				B42CB964273170B200074A9A /* Info.plist */,
 				B41D6C76271D84310027E8C7 /* Assets.xcassets */,
 				B41D6C78271D84310027E8C7 /* Preview Content */,
 				B41D6C72271D84300027E8C7 /* SwiftUILabApp.swift */,
@@ -125,11 +131,21 @@
 		B42CB95827314E2100074A9A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B42CB961273159AA00074A9A /* Model */,
 				B42CB95627311FBA00074A9A /* OAuthView.swift */,
+				B42CB95F273158F900074A9A /* ProfileView.swift */,
 				B42CB95927314E4D00074A9A /* LoginView.swift */,
 				B42CB95B2731527C00074A9A /* RegisterView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B42CB961273159AA00074A9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B42CB962273159B400074A9A /* UserData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B4FCA948272FF05200E83D14 /* Redux */ = {
@@ -231,10 +247,12 @@
 				B41D6C73271D84300027E8C7 /* SwiftUILabApp.swift in Sources */,
 				B42CB95C2731527C00074A9A /* RegisterView.swift in Sources */,
 				B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */,
+				B42CB960273158F900074A9A /* ProfileView.swift in Sources */,
 				B4FCA9502730077100E83D14 /* AppAction.swift in Sources */,
 				B42CB95A27314E4D00074A9A /* LoginView.swift in Sources */,
 				B408B34D272BCC4F00A43F7E /* ScrollReader.swift in Sources */,
 				B4FCA952273007A700E83D14 /* Reducers.swift in Sources */,
+				B42CB963273159B400074A9A /* UserData.swift in Sources */,
 				B4FCA94C272FFD2300E83D14 /* DiceView.swift in Sources */,
 				B4FCA94A272FF06200E83D14 /* ReduxView.swift in Sources */,
 				B4FCA94E2730044F00E83D14 /* AppStore.swift in Sources */,
@@ -295,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -350,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -371,13 +389,14 @@
 				DEVELOPMENT_TEAM = 8BMNZ3PCHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUILab/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치가 필요합니다. 허용해주세요";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,13 +421,14 @@
 				DEVELOPMENT_TEAM = 8BMNZ3PCHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUILab/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치가 필요합니다. 허용해주세요";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
