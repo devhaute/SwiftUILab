@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B404F421274269B100F5F809 /* RandomUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B404F420274269B100F5F809 /* RandomUserViewModel.swift */; };
 		B408B34D272BCC4F00A43F7E /* ScrollReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B408B34C272BCC4F00A43F7E /* ScrollReader.swift */; };
 		B417A34C272958EF005085A9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417A34B272958EF005085A9 /* MapView.swift */; };
 		B417A34F272962CF005085A9 /* MyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417A34E272962CF005085A9 /* MyMapView.swift */; };
@@ -23,6 +24,12 @@
 		B42CB96827317C3600074A9A /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CB96727317C3600074A9A /* UserListView.swift */; };
 		B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C602F273010BB00423C09 /* MyButtonStyle.swift */; };
 		B46C60322730127500423C09 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C60312730127500423C09 /* AppState.swift */; };
+		B4A086002741619300A1D135 /* AlamofireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A085FF2741619300A1D135 /* AlamofireView.swift */; };
+		B4A08603274161E200A1D135 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A08602274161E200A1D135 /* ProfileImageView.swift */; };
+		B4A086062741626100A1D135 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = B4A086052741626100A1D135 /* URLImage */; };
+		B4A08608274164FD00A1D135 /* RandomUserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A08607274164FD00A1D135 /* RandomUserRowView.swift */; };
+		B4A0860B274167EE00A1D135 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B4A0860A274167EE00A1D135 /* Alamofire */; };
+		B4A0860E274168A100A1D135 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A0860D274168A100A1D135 /* RandomUser.swift */; };
 		B4FCA94A272FF06200E83D14 /* ReduxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA949272FF06200E83D14 /* ReduxView.swift */; };
 		B4FCA94C272FFD2300E83D14 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA94B272FFD2300E83D14 /* DiceView.swift */; };
 		B4FCA94E2730044F00E83D14 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCA94D2730044F00E83D14 /* AppStore.swift */; };
@@ -31,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B404F420274269B100F5F809 /* RandomUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewModel.swift; sourceTree = "<group>"; };
 		B408B34C272BCC4F00A43F7E /* ScrollReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReader.swift; sourceTree = "<group>"; };
 		B417A34B272958EF005085A9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B417A34E272962CF005085A9 /* MyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapView.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		B42CB96727317C3600074A9A /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		B46C602F273010BB00423C09 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 		B46C60312730127500423C09 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B4A085FF2741619300A1D135 /* AlamofireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireView.swift; sourceTree = "<group>"; };
+		B4A08602274161E200A1D135 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		B4A08607274164FD00A1D135 /* RandomUserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRowView.swift; sourceTree = "<group>"; };
+		B4A0860D274168A100A1D135 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
 		B4FCA949272FF06200E83D14 /* ReduxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxView.swift; sourceTree = "<group>"; };
 		B4FCA94B272FFD2300E83D14 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		B4FCA94D2730044F00E83D14 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
@@ -61,12 +73,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A086062741626100A1D135 /* URLImage in Frameworks */,
+				B4A0860B274167EE00A1D135 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B404F41F2742698C00F5F809 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B404F420274269B100F5F809 /* RandomUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B408B34B272BCC2600A43F7E /* ScrollReader */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +134,7 @@
 				B408B34B272BCC2600A43F7E /* ScrollReader */,
 				B4FCA948272FF05200E83D14 /* Redux */,
 				B42CB95527311F9C00074A9A /* OAuth */,
+				B4A085FE2741616200A1D135 /* Alamofire */,
 			);
 			path = SwiftUILab;
 			sourceTree = "<group>";
@@ -154,6 +177,34 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B4A085FE2741616200A1D135 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				B4A0860C2741688200A1D135 /* Model */,
+				B404F41F2742698C00F5F809 /* ViewModel */,
+				B4A08601274161CE00A1D135 /* View */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		B4A08601274161CE00A1D135 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4A085FF2741619300A1D135 /* AlamofireView.swift */,
+				B4A08602274161E200A1D135 /* ProfileImageView.swift */,
+				B4A08607274164FD00A1D135 /* RandomUserRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4A0860C2741688200A1D135 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4A0860D274168A100A1D135 /* RandomUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B4FCA948272FF05200E83D14 /* Redux */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +236,8 @@
 			);
 			name = SwiftUILab;
 			packageProductDependencies = (
+				B4A086052741626100A1D135 /* URLImage */,
+				B4A0860A274167EE00A1D135 /* Alamofire */,
 			);
 			productName = SwiftUILab;
 			productReference = B41D6C6F271D84300027E8C7 /* SwiftUILab.app */;
@@ -218,6 +271,8 @@
 			);
 			mainGroup = B41D6C66271D84300027E8C7;
 			packageReferences = (
+				B4A086042741626100A1D135 /* XCRemoteSwiftPackageReference "url-image" */,
+				B4A08609274167EE00A1D135 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = B41D6C70271D84300027E8C7 /* Products */;
 			projectDirPath = "";
@@ -246,11 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41D6C75271D84300027E8C7 /* ContentView.swift in Sources */,
+				B4A086002741619300A1D135 /* AlamofireView.swift in Sources */,
 				B417A34F272962CF005085A9 /* MyMapView.swift in Sources */,
 				B42CB96827317C3600074A9A /* UserListView.swift in Sources */,
 				B417A34C272958EF005085A9 /* MapView.swift in Sources */,
 				B42CB95727311FBA00074A9A /* OAuthView.swift in Sources */,
 				B46C60322730127500423C09 /* AppState.swift in Sources */,
+				B4A08608274164FD00A1D135 /* RandomUserRowView.swift in Sources */,
 				B41D6C73271D84300027E8C7 /* SwiftUILabApp.swift in Sources */,
 				B42CB95C2731527C00074A9A /* RegisterView.swift in Sources */,
 				B46C6030273010BB00423C09 /* MyButtonStyle.swift in Sources */,
@@ -258,7 +315,10 @@
 				B4FCA9502730077100E83D14 /* AppAction.swift in Sources */,
 				B42CB95A27314E4D00074A9A /* LoginView.swift in Sources */,
 				B408B34D272BCC4F00A43F7E /* ScrollReader.swift in Sources */,
+				B4A0860E274168A100A1D135 /* RandomUser.swift in Sources */,
+				B404F421274269B100F5F809 /* RandomUserViewModel.swift in Sources */,
 				B42CB96627317AA200074A9A /* OtherUserProfileView.swift in Sources */,
+				B4A08603274161E200A1D135 /* ProfileImageView.swift in Sources */,
 				B4FCA952273007A700E83D14 /* Reducers.swift in Sources */,
 				B42CB963273159B400074A9A /* UserData.swift in Sources */,
 				B4FCA94C272FFD2300E83D14 /* DiceView.swift in Sources */,
@@ -472,6 +532,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4A086042741626100A1D135 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B4A08609274167EE00A1D135 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4A086052741626100A1D135 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4A086042741626100A1D135 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		B4A0860A274167EE00A1D135 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4A08609274167EE00A1D135 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B41D6C67271D84300027E8C7 /* Project object */;
 }
