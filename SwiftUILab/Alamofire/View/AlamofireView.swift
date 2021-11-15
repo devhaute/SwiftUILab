@@ -1,9 +1,11 @@
 import SwiftUI
 
 struct AlamofireView: View {
+    @StateObject var randomUserViewModel = RandomUserViewModel()
+    
     var body: some View {
-        List(0..<50) { _ in
-            RandomUserRowView()
+        List(randomUserViewModel.randomUsers) { aRandomUser in
+            RandomUserRowView(aRandomUser)
         }
     }
 }

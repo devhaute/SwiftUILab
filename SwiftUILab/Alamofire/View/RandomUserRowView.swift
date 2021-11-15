@@ -1,12 +1,16 @@
 import SwiftUI
 
 struct RandomUserRowView: View {
-    private let imageUrl = URL(string: "https://randomuser.me/api/portraits/men/36.jpg")!
+    let randomUser: RandomUser
+    
+    init(_ randomUser: RandomUser){
+        self.randomUser = randomUser
+    }
     
     var body: some View {
         HStack {
-            ProfileImageView(url: imageUrl)
-            Text("하하하하하하하하하하하하")
+            ProfileImageView(url: randomUser.photo.medium)
+            Text(randomUser.name.description)
                 .fontWeight(.heavy)
                 .font(.system(size: 25))
                 .lineLimit(2)

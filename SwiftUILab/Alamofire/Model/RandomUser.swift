@@ -11,10 +11,20 @@ struct RandomUser: Identifiable, Codable {
     }
 }
 
-struct Name: Codable {
+//extension RandomUser {
+//    static let DummyData: [Self] = [
+//        .init(name: <#T##Name#>, photo: <#T##Photo#>)
+//    ]
+//}
+
+struct Name: Codable, CustomStringConvertible {
     let title: String
     let first: String
     let last: String
+    
+    var description: String {
+        self.title
+    }
 }
 
 struct Photo: Codable {
